@@ -2,7 +2,7 @@
 # that will allow you to test if your code works the way we expect
 # @Author Daniel Kluver and Min Namgung
 
-from nim import create_game_state, is_over, is_valid_move, draw_game_state, update
+from nim_utils import create_game_state, is_over, is_valid_move, draw_game_state, update
 
 state = create_game_state(0, 0)
 print(state)                       # []

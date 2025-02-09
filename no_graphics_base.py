@@ -1,7 +1,10 @@
 # This is a PROGRAM that uses the nim code to play a game of nim
 # Right now it is pretty sparse -- lots of room for improvement.
 # @Author Daniel Kluver and Min Namgung
-from nim import create_game_state, is_over, is_valid_move, draw_game_state, update
+from nim_utils import create_game_state, is_over, is_valid_move, draw_game_state, update
+
+
+import pygame, sys
 
 
 def play_one_game():
@@ -20,6 +23,11 @@ def play_one_game():
         takes = int(takes)
         game_state = update(game_state, row, takes)
     print("Game over, the last player lost!")
+
+
+
+
+
 
 if __name__ == "__main__":
     play_one_game()

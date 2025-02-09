@@ -1,11 +1,3 @@
-import pygame
-
-pygame.init()
-running = True
-screen = pygame.display.set_mode(300, 300)
-
-while running:
-    
 
 def create_game_state(board_size, token_max):
     '''
@@ -89,8 +81,9 @@ def is_over(game_state):
 
 if __name__ == '__main__':
     
-
+    '''
     state = [5,4,3,4,1,0,0,9,1]
     print("before call")
     draw_game_state(state)
     print("after call")
+    '''
