@@ -81,9 +81,6 @@ def is_over(game_state):
 
 if __name__ == '__main__':
     
-    '''
-    state = [5,4,3,4,1,0,0,9,1]
-    print("before call")
-    draw_game_state(state)
-    print("after call")
-    '''
+    
+    print(create_game_state(5,5))
+    
